@@ -477,6 +477,20 @@ export default function Home() {
         },
       ],
     },
+    {
+      id: 33,
+      title: "Phase 33: Interview Questions & Solutions",
+      description:
+        "Common JavaScript interview questions with multiple solution approaches, optimizations, and best practices",
+      color: "from-emerald-500 to-teal-500",
+      sections: [
+        {
+          id: "33.1",
+          title: "Interview Questions & Solutions",
+          path: "/phase33/interview-questions",
+        },
+      ],
+    },
   ];
 
   return (
@@ -498,11 +512,11 @@ export default function Home() {
         {/* Progress Overview */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
           <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-6">
-            <div className="text-3xl font-bold text-blue-400 mb-2">32</div>
+            <div className="text-3xl font-bold text-blue-400 mb-2">33</div>
             <div className="text-gray-400">Phases</div>
           </div>
           <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-6">
-            <div className="text-3xl font-bold text-purple-400 mb-2">38</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">39</div>
             <div className="text-gray-400">Total Sections</div>
           </div>
           <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-6">
