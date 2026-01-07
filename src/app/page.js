@@ -489,6 +489,11 @@ export default function Home() {
           title: "Interview Questions & Solutions",
           path: "/phase33/interview-questions",
         },
+        {
+          id: "33.2",
+          title: "JavaScript Debugging Mastery",
+          path: "/phase33/debugging",
+        },
       ],
     },
   ];
@@ -516,7 +521,7 @@ export default function Home() {
             <div className="text-gray-400">Phases</div>
           </div>
           <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-6">
-            <div className="text-3xl font-bold text-purple-400 mb-2">39</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">40</div>
             <div className="text-gray-400">Total Sections</div>
           </div>
           <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-6">
